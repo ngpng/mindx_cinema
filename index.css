@@ -1,0 +1,36 @@
+body{
+    background-color: #292929;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    padding: 2px;
+    background-color: #100f0f88;
+    column-gap: 20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    padding: 0px 20px;
+    width: 25%;
+    list-style:none;
+    column-gap: 20px;
+}
+
+.search{
+    display:flex;
+    align-items:center;
+    gap: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: #100f0f88;
+}
+
+h1{
+    color: #fff;
+    width: 250px;
+    align-items:center;
+    padding: 0px 25px;
+}
