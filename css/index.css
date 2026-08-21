@@ -79,10 +79,6 @@ h2 {
     transition: transform 0.2s;
 }
 
-.movie-card img:hover {
-    transform: scale(1.05);
-}
-
 .featured-content {
     display: flex;
     gap: 20px;
