@@ -30,7 +30,15 @@ header h1 {
     width: 25%;
     list-style: none;
     column-gap: 20px;
-    margin: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background-color: #100f0f88;
 }
 
 .navbar li a {
@@ -101,19 +109,4 @@ header h1 {
     color: #888;
     font-size: 13px;
     margin-bottom: 15px;
-}
-
-.tags {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.tags span {
-    background-color: #240000;
-    border: 1px solid #620000;
-    color: #fff;
-    padding: 4px 10px;
-    border-radius: 4px;
-    font-size: 12px;
 }
