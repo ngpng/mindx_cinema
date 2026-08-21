@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindX Cinema</title>
     <link rel="stylesheet" href="css/find.css">
+    <script src="script/find.js"></script>
 </head>
 <body>
-    <header>MindX Cinema</header>
-    <h1>Search for a movie</h1>
-    <input type="search" placeholder="Search..."></input>
+    <header>
+        <h1 onclick="window.location.href='index.html'">Mindx Cinema</h1>
+        <input class="searchMovies" type="search" placeholder="Search..."></input>
+    </header> 
+
+    <section class="list-movie">
+        <h2>Results:</h2>
+        <div id="movie-list-container" class="movie-grid"></div>
+
+    </section>
 </body>
 </html>
