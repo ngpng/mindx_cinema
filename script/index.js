@@ -38,3 +38,5 @@ fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}`)
 function goToInfo(id) {
   window.location.href = `info_page.html?id=${id}`;
 }
+
+

@@ -10,6 +10,11 @@ header {
     column-gap: 20px;
 }
 
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;

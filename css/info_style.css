@@ -1,5 +1,5 @@
 body {
-    background-color: #292929;
+    background-color: #000000;
     font-family: Times New Roman;
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 10px 2px;
+    padding: 2px;
     background-color: #100f0f88;
     column-gap: 20px;
 }
