@@ -2,13 +2,15 @@ body {
     margin: 0;
     background: #111;
     color: white;
-    font-family: Arial, sans-serif;
+    font-family:times new roman;
 }
 
 header {
-    padding: 15px 35px;
-    font-size: 18px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: #100f0f88;
+    column-gap: 20px;
 }
 
 header span {

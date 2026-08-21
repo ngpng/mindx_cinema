@@ -5,27 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+    <script src="script/index.js"></script>
 </head>
 <body>
+    <body>
     <header>
-        <h1>Mindx Cinema</h1>
-        <ul class = "navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Movies</a></li>
+        <h1>MindX Cinema</h1>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Movies</a></li> <button class="search-btn" onclick="window.location.href='find_page.html'">Search For Movies</button>
         </ul>
-        <button class = "search-btn">Search For Movies</button>
     </header> 
 
-    <section class = "featured-movie">
-        <div>   
-            <h2>Featured Movie</h2>
-
-        </div>
+    <section class="featured-movie">
+        <h2>Featured Movie</h2>
+        <div id="featured-movie-container"></div>
     </section>
 
-    <section class = "list-movie">
-        <div>
-            <h2>List Of Movies</h2>
-        </div>
+    <section class="list-movie">
+        <h2>List Of Movies</h2>
+        <div id="movie-list-container" class="movie-grid"></div>
     </section>
+</body>
+</html>
 </body>
