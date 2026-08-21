@@ -10,19 +10,17 @@ if (movieId) {
     .then((movie) => {
       document.getElementById("movie-pic").src = IMG_URL + movie.poster_path;
       document.getElementById("movie-title").innerText = movie.title;
-      document.getElementById("movie-desc").innerText =
-        movie.overview || "No description available.";
-      document.getElementById("movie-date").innerText =
-        `Release Date: ${movie.release_date}`;
+      document.getElementById("movie-des").innerText =movie.overview || "No description available.";
+      document.getElementById("movie-date").innerText ="Release Date: ${movie.release_date}";
 
       // Hiển thị các thể loại (tags)
       const tagsContainer = document.getElementById("movie-tags");
       tagsContainer.innerHTML = "";
       for (let i = 0; i < movie.genres.length; i++) {
-        tagsContainer.innerHTML += `<span>${movie.genres[i].name}</span>`;
+        tagsContainer.innerHTML += "<span>" + movie.genres[i].name + "</span>";
       }
     })
-    .catch((err) => console.log("Lỗi tải phim:", err));
+    .catch((err) => console.log("Lỗi:", err));
 } else {
   document.getElementById("movie-title").innerText = "Movie not found!";
 }
